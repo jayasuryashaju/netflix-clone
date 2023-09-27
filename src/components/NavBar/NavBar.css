@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    /* background-color: rgb(32, 32, 32); */
+    opacity: .9;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 1000; 
+}
+.nav-logo {
+    padding: 20px 20px 20px 20px;
+    width: 150px;
+    
+}
+.nav-avatar {
+    padding: 20px 20px 20px 0px;
+    cursor: pointer;
+    width: 40px;
+}
+
